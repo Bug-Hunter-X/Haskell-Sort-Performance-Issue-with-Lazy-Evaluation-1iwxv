@@ -1,0 +1,2 @@
+# Haskell Sort Performance Issue
+This repository demonstrates a potential performance issue in Haskell related to lazy evaluation and the `Data.List.sort` function.  When sorting large lists, especially those generated lazily, the code might consume excessive memory or become slow. The `bug.hs` file contains the problematic code. The improved solution is demonstrated in `bugSolution.hs`.
